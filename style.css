@@ -122,3 +122,20 @@ h2 {
     padding: 0;
     border: 2px solid rgb(143, 84, 199);
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #3333336c;
+    margin: 0px;
+    padding: 15px 0px 15px 0px;
+    background-color: rgb(143, 84, 199);
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
