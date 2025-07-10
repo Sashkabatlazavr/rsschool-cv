@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
@@ -117,12 +121,6 @@ h2 {
     margin-top: 15px;
 }
 
-.secondDevider {
-    margin: 15px 0px 15px 0px;
-    padding: 0;
-    border: 2px solid rgb(143, 84, 199);
-}
-
 footer {
     display: flex;
     justify-content: space-around;
@@ -139,3 +137,47 @@ img {
     width: 100px;
     height: 100px;
 }
+
+footer a:hover {
+    color: #f0f0f0;
+} 
+
+.mainProjects {
+    background-color: rgb(219, 219, 219)
+}
+
+.projectList {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.projects { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.projects h3 {
+    margin-left: 10%;
+}
+
+.projectsTitle {
+    padding-top: 25px;
+    margin-left: 5%;
+}
+
+.projectPreview img {
+    width: 350px;
+    height: 300px;
+    margin: 0 0 0 10%;
+    padding: 0;
+}
+
+.projectPreview img {
+    transition: transform 0.3s ease;
+  }
+  
+  .projectPreview img:hover {
+    transform: scale(1.1);
+  }
