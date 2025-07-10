@@ -1,6 +1,10 @@
 html {
     scroll-behavior: smooth;
   }
+.widthContainer {
+    max-width: 1920px;
+    margin: 0 auto;
+}
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
