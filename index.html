@@ -4,9 +4,109 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>title</title>
+    <title>CV</title>
 </head>
 <body>
-    <p>Тут будет контент)</p>
+    <header class="header">
+    <nav>
+        <ul>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#code-example">Education, code example and languages</a></li>
+            <li><a href="#projects">My projects</a></li>
+            <li><a href="#footer">Footer</a></li>
+    </nav>
+    </header>
+    <main>
+    <div class="container" id="about-me">  
+    <div class="preview" >
+        <h1>Alexandr Silitski</h1>
+        <p class="jobTitle">Tesla CEO</p>
+        <img src="https://avatars.githubusercontent.com/u/71015166?v=4" alt="Avatar" class="avatar">
+    </div>
+    <div class="content">
+        <h2>About me</h2>
+        <p>I am a beginner web developer who is committed to continuous learning and development in this field. My experience includes creating simple web pages and applications using HTML, CSS and JavaScript. I am a beginner web developer who is committed to continuous learning and development in this field. My experience includes creating simple web pages and applications using HTML, CSS and JavaScript.</p>
+        <div class="lists">
+            <div class="skills">
+                <h2>Skills:</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+         <div class="contacts">
+            <h2>Contacts:</h2>
+            <ul>
+                <li>Email: alexandr.silitski@gmail.com</li>
+                <li>Phone: +375291234567</li>
+                <li>Telegram: @alexandr_silitski</li>
+                <li>GitHub:<a href="https://github.com/alexandr-silitski"> Alexandr Silitski</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    </div>
+    </main>
+    <hr class="firstDevider">
+    <div class="container">
+        <div class="codeExample" id="code-example">
+            <h2>Code example:</h2>
+            <pre>
+                <code>
+                    function sum(a, b) {
+                        return a + b;
+                    }
+                    console.log(sum(1, 2));
+                </code>
+            </pre>
+        </div>
+        <div class="education">
+            <h2>Education:</h2>
+            <ul>
+                <li>Belarusian State University of Informatics and Radioelectronics</li>
+                <li>Belarusian State University of Informatics and Radioelectronics</li>
+                <li>Belarusian State University of Informatics and Radioelectronics</li>
+            </ul>
+        </div>
+        <div class="languages">
+            <h2>Languages:</h2>
+            <ul>
+                <li>English: Intermediate</li>
+                <li>Russian: Native</li>
+                <li>Belarusian: Native</li>
+            </ul>
+        </div>
+    </div>
+    <div class="mainProjects" id="projects">
+        <hr>
+        <h2 class="projectsTitle">My projects</h2>
+            <div class="projects">
+                <div class="projectList">
+                    <h3>Netflix site</h3>
+                    <div class="projectPreview">
+                        <a target="_blank" href="https://www.netflix.com/by-ru/"><img src="image/netflix_project.jpg" alt="Project preview"></a>
+                    </div>
+                </div>
+                <div class="projectList">
+                    <h3>Tesla site</h3>
+                    <div class="projectPreview">
+                        <a target="_blank" href="https://www.netflix.com/by-ru/"><img src="image/tesla_project.jpg" alt="Project preview"></a>
+                    </div>
+                </div>
+                <div class="projectList">
+                    <h3>Project:</h3>
+                    <div class="projectPreview">
+                        <img src="image/112.jpg" alt="Project preview">
+                    </div>
+                </div>
+            </div>
+    </div>  
+    <footer id="footer">
+        <p>2025</p>
+        <a target="_blank" href="https://github.com/Sashkabatlazavr">My GitHub</a>
+        <a target="_blank" href="https://rs.school/courses/javascript-ru"><img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/b26a2d42335feffe9cfc3d73accdf61e420917da/tasks/cv/rs-school-logo.svg" alt="Avatar"></a>
+    </footer>
 </body>
 </html>
